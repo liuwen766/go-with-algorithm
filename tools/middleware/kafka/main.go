@@ -7,8 +7,8 @@ import (
 
 func main() {
 
-	//kafkaPro()
-	kafkaCon()
+	kafkaPro()
+	//kafkaCon()
 
 }
 
