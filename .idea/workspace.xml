@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="gopsutil">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="gin-请求限流">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/viper/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/viper/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,46 +42,38 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools/viper/example2" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\viper\example2" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\viper\example1" />
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\viper" />
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\db" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\go\goroutine\workpool" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\middleware" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\goweb" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\go\struct" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/go-with-algorithm/goweb/limit">
-    <configuration name="go build github.com/go-with-algorithm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build github.com/go-with-algorithm/tools/viper" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
+      <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/tools/viper/main.go" />
       <package value="github.com/go-with-algorithm/tools/viper" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/go-with-algorithm/goweb/limit" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/go-with-algorithm/tools/viper/example1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/goweb/limit/main.go" />
-      <package value="github.com/go-with-algorithm/goweb/limit" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/go-with-algorithm/tools/gopsutil" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/tools/gopsutil/main.go" />
-      <package value="github.com/go-with-algorithm/tools/gopsutil" />
+      <filePath value="$PROJECT_DIR$/tools/viper/example1/main.go" />
+      <package value="github.com/go-with-algorithm/tools/viper/example1" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -87,7 +81,16 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tools/gopsutil/main.go" />
+      <filePath value="$PROJECT_DIR$/tools/viper/example1/main.go" />
+      <package value="github.com/go-with-algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/tools/viper/example2/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -96,24 +99,24 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/goroutine/lock/main.go" />
+      <filePath value="$PROJECT_DIR$/tools/viper/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/gopsutil" />
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/viper" />
       <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/viper/example1" />
       <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/goweb/limit" />
+      <item itemvalue="Go Build.go build main.go (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/goweb/limit" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/viper" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/gopsutil" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/viper/example1" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -142,7 +145,8 @@
     <MESSAGE value="go-kafka" />
     <MESSAGE value="goroutione" />
     <MESSAGE value="gopsutil" />
-    <option name="LAST_COMMIT_MESSAGE" value="gopsutil" />
+    <MESSAGE value="gin-请求限流" />
+    <option name="LAST_COMMIT_MESSAGE" value="gin-请求限流" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
