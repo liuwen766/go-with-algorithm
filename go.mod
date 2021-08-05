@@ -13,5 +13,6 @@ require (
 	github.com/shirou/gopsutil v3.21.7+incompatible
 	github.com/tklauser/go-sysconf v0.3.7 // indirect
 	go.mongodb.org/mongo-driver v1.7.0
+	go.uber.org/ratelimit v0.2.0
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
