@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="闭包">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="反射">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,14 @@
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -55,7 +63,7 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\go\goroutine\workpool" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/go-with-algorithm/go/reflect">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build github.com/go-with-algorithm/go/Closure" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
@@ -74,12 +82,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/go-with-algorithm/leetcode/尚硅谷/1.算法引入" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/Closure/main.go" />
-      <package value="github.com/go-with-algorithm" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/leetcode/尚硅谷/1.算法引入/main.go" />
+      <package value="github.com/go-with-algorithm/leetcode/尚硅谷/1.算法引入" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -96,25 +104,25 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tools/test/main.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/尚硅谷/1.算法引入/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/Closure" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/reflect" />
       <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/尚硅谷/1.算法引入" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/尚硅谷/1.算法引入" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/reflect" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/Closure" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +154,8 @@
     <MESSAGE value="viper" />
     <MESSAGE value="单元测试" />
     <MESSAGE value="闭包" />
-    <option name="LAST_COMMIT_MESSAGE" value="闭包" />
+    <MESSAGE value="反射" />
+    <option name="LAST_COMMIT_MESSAGE" value="反射" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
