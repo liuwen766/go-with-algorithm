@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-with-algorithm/leetcode/排序算法/bubblesort"
-	"github.com/go-with-algorithm/leetcode/排序算法/bucketsort"
-	"github.com/go-with-algorithm/leetcode/排序算法/countsort"
-	"github.com/go-with-algorithm/leetcode/排序算法/heapsort"
-	"github.com/go-with-algorithm/leetcode/排序算法/insertsort"
-	"github.com/go-with-algorithm/leetcode/排序算法/mergesort"
-	"github.com/go-with-algorithm/leetcode/排序算法/quicksort"
-	"github.com/go-with-algorithm/leetcode/排序算法/radixsort"
-	"github.com/go-with-algorithm/leetcode/排序算法/selectsort"
-	"github.com/go-with-algorithm/leetcode/排序算法/shellsort"
+	"github.com/go-with-algorithm/algorithm/排序算法/bubblesort"
+	"github.com/go-with-algorithm/algorithm/排序算法/bucketsort"
+	"github.com/go-with-algorithm/algorithm/排序算法/countsort"
+	"github.com/go-with-algorithm/algorithm/排序算法/heapsort"
+	"github.com/go-with-algorithm/algorithm/排序算法/insertsort"
+	"github.com/go-with-algorithm/algorithm/排序算法/mergesort"
+	"github.com/go-with-algorithm/algorithm/排序算法/quicksort"
+	"github.com/go-with-algorithm/algorithm/排序算法/radixsort"
+	"github.com/go-with-algorithm/algorithm/排序算法/selectsort"
+	"github.com/go-with-algorithm/algorithm/排序算法/shellsort"
 )
 
 var data = []int{8, 3, 6, 9, 11, 2, 7, 23, 65, 13, 9}
