@@ -19,10 +19,10 @@ var data = []int{8, 3, 6, 9, 11, 2, 7, 23, 65, 13, 9}
 func main() {
 	//datePrintln("桶排序")
 	//datePrintln("计数排序")
-	datePrintln("冒泡排序")
+	//datePrintln("冒泡排序")
 	//datePrintln("快速排序")
 	//datePrintln("选择排序")
-	//datePrintln("插入排序")
+	datePrintln("插入排序")
 	//datePrintln("希尔排序")
 	//datePrintln("合并排序")
 	//datePrintln("基数排序")
@@ -47,7 +47,7 @@ func datePrintln(name string) {
 		result = data
 		break
 	case "插入排序":
-		insertsort.Sort(data, 0, len(data)-1)
+		insertsort.Sort(data)
 		result = data
 		break
 	case "合并排序":

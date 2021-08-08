@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="排序之冒泡">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="排序之冒泡/选择">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/排序算法/bubblesort/bubblesort.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/排序算法/bubblesort/bubblesort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/排序算法/insertsort/insertsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/排序算法/insertsort/insertsort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/排序算法/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/排序算法/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/排序算法/selectsort/selectsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/排序算法/selectsort/selectsort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,15 +67,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go (2)">
-    <configuration name="go build bubblesort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/排序算法/bubblesort/bubblesort.go" />
-      <package value="github.com/go-with-algorithm" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build github.com/go-with-algorithm/leetcode/排序算法" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,6 +82,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/leetcode/排序算法/binarySearch/main.go" />
       <package value="github.com/go-with-algorithm/leetcode/排序算法/binarySearch" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build insertsort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leetcode/排序算法/insertsort/insertsort.go" />
+      <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -115,18 +114,18 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/排序算法" />
-      <item itemvalue="Go Build.go build bubblesort.go" />
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/排序算法/binarySearch" />
       <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build insertsort.go" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build insertsort.go" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/排序算法" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/排序算法/binarySearch" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build bubblesort.go" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,8 @@
     <MESSAGE value="稀疏数组" />
     <MESSAGE value="二分查找（递归+非递归）" />
     <MESSAGE value="排序之冒泡" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序之冒泡" />
+    <MESSAGE value="排序之冒泡/选择" />
+    <option name="LAST_COMMIT_MESSAGE" value="排序之冒泡/选择" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
