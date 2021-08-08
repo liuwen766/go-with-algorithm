@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="项目结构调整">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="二分">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0731/test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0731/二分查找/BinarySearch.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808/二分查找/BinarySearch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808/二分查找/BinarySearch.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808-二分/二分查找/BinarySearch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808/搜索插入位置/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808-二分/搜索插入位置/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808/第一个错误版本/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808-二分/第一个错误版本/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +67,39 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build BinarySearch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/旋转数组" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/旋转数组/main.go" />
+      <package value="github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/旋转数组" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/两数之和" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/两数之和/main.go" />
+      <package value="github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/两数之和" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/算法入门/day01-0731/二分查找/BinarySearch.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/有序数组平方/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/go-with-algorithm/leetcode/算法入门/day01-0731/二分查找" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/leetcode/算法入门/day01-0731/二分查找/BinarySearch.go" />
-      <package value="github.com/go-with-algorithm/leetcode/算法入门/day01-0731/二分查找" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/旋转数组/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -98,34 +108,25 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808/搜索插入位置/main.go" />
-      <package value="github.com/go-with-algorithm" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808/test.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/两数之和/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/算法入门/day01-0731/二分查找" />
-      <item itemvalue="Go Build.go build BinarySearch.go" />
-      <item itemvalue="Go Build.go build test.go" />
+      <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/旋转数组" />
+      <item itemvalue="Go Build.go build main.go (3)" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/两数之和" />
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build BinarySearch.go" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/leetcode/算法入门/day01-0731/二分查找" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/两数之和" />
+        <item itemvalue="Go Build.go build main.go (3)" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/算法入门/day02-0809-双指针/旋转数组" />
+        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +166,8 @@
     <MESSAGE value="排序之冒泡/选择" />
     <MESSAGE value="插入排序" />
     <MESSAGE value="项目结构调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目结构调整" />
+    <MESSAGE value="二分" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
