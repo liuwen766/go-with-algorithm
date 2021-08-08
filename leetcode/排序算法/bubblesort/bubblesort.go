@@ -19,11 +19,11 @@ func SwapGo(list []int, i int, j int) {
 }
 
 func MyBubbleSort(arr []int) {
-	//遍历，找到最小值，排到最前
-	for i := 0; i < len(arr); i++ {
-		for j := i + 1; j < len(arr); j++ {
-			if arr[j] < arr[i] {
-				SwapGo(arr, i, j)
+	//冒泡
+	for i := len(arr); i > 0; i-- {
+		for j := len(arr) - 1; j > 0; j-- {
+			if arr[j-1] > arr[j] {
+				SwapGo(arr, j-1, j)
 			}
 		}
 	}

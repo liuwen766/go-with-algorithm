@@ -43,7 +43,7 @@ func datePrintln(name string) {
 		result = data
 		break
 	case "选择排序":
-		selectsort.Sort(data, 0, len(data)-1)
+		selectsort.Sort(data)
 		result = data
 		break
 	case "插入排序":
