@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="leetcode刷题0809-斐波那契数  滚动数组">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="leetcode刷题0810">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/初级算法/数组/只出现一次的数字/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/只出现一次的数字/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/初级算法/数组/重复元素/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/重复元素/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/数据结构/字符串/字符是否唯一/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/字符串/字符是否唯一/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/数据结构/数组/三数之和/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/三数之和/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/数据结构/数组/多数元素/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/多数元素/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/数据结构/数组/最大子序和/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/最大子序和/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/数据结构/数组/重复元素/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808-二分/二分查找/BinarySearch.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/排序和搜索/二分查找/BinarySearch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808-二分/搜索插入位置/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/排序和搜索/搜索插入位置/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day01-0808-二分/第一个错误版本/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/排序和搜索/第一个错误版本/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/两数之和/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/两数之和/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/旋转数组/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/旋转数组/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/day02-0809-双指针/有序数组平方/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数组/有序数组平方/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/算法入门/readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +72,14 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\数组" />
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\排序和搜索" />
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\字符串" />
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\数据结构\day01-0809-数组\重复元素" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\viper\example1" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\viper" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go (4)">
     <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/数据结构/数组/三数之和" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,29 +116,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/第N个斐波那契数/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/排序和搜索/合并两个有序数组/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/数据结构/数组/三数之和" />
       <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/数据结构/数组/三数之和" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +182,8 @@
     <MESSAGE value="leetcode刷题0808" />
     <MESSAGE value="leetcode刷题0809" />
     <MESSAGE value="leetcode刷题0809-斐波那契数  滚动数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode刷题0809-斐波那契数  滚动数组" />
+    <MESSAGE value="leetcode刷题0810" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode刷题0810" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -182,13 +197,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/algorithm/leetcode/数据结构/数组/多数元素/main.go</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/algorithm/leetcode/数组/多数元素/main.go</url>
+          <line>35</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/algorithm/leetcode/数据结构/数组/三数之和/main.go</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/algorithm/leetcode/数组/三数之和/main.go</url>
+          <line>26</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
