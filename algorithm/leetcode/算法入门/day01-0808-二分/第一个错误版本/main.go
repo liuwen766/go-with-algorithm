@@ -1,4 +1,4 @@
-package 第一个错误版本
+package main
 
 func main() {
 	firstBadVersion(1)
