@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="leetcode刷题0810">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="goroutine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/time/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/time/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/goroutine/numofgoroutine/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/numofgoroutine/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,8 @@
     <MESSAGE value="leetcode刷题0809" />
     <MESSAGE value="leetcode刷题0809-斐波那契数  滚动数组" />
     <MESSAGE value="leetcode刷题0810" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode刷题0810" />
+    <MESSAGE value="goroutine" />
+    <option name="LAST_COMMIT_MESSAGE" value="goroutine" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
