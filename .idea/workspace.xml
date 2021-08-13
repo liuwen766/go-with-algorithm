@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="leetcode刷题0810">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/time/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/time/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,16 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/go-with-algorithm/tools/context/client">
+  <component name="RunManager" selected="Go Build.go build github.com/go-with-algorithm/go/goroutine/numofgoroutine">
+    <configuration name="go build github.com/go-with-algorithm/go/goroutine/numofgoroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go/goroutine/numofgoroutine/main.go" />
+      <package value="github.com/go-with-algorithm/go/goroutine/numofgoroutine" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/go-with-algorithm/tools/context/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,38 +104,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/go-with-algorithm/tools/time" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/排序和搜索/合并两个有序数组/main.go" />
-      <package value="github.com/go-with-algorithm" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/剑指offer/位运算/二进制中1的个数/main.go" />
-      <package value="github.com/go-with-algorithm" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/tools/time/main.go" />
+      <package value="github.com/go-with-algorithm/tools/time" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (4)" />
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/gopsutil" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/context/client" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/context/server" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/time" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/goroutine/numofgoroutine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/goroutine/numofgoroutine" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/time" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/gopsutil" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/context/client" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/context/server" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/gopsutil" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build main.go (4)" />
       </list>
     </recent_temporary>
   </component>
