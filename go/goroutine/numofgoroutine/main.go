@@ -7,24 +7,6 @@ import (
 	"time"
 )
 
-func main() {
-	pool := New(10)
-	now := time.Now()
-	println(runtime.NumGoroutine())
-	for i := 0; i < 3000; i++ {
-		pool.Add(1)
-		go func() {
-			time.Sleep(time.Second)
-			println("liu", runtime.NumGoroutine())
-			pool.Done()
-		}()
-	}
-	pool.Wait()
-	since := time.Since(now)
-	fmt.Println("总共用时：", since)
-	println(runtime.NumGoroutine())
-}
-
 type pool struct {
 	queue chan int
 	wg    *sync.WaitGroup
@@ -57,4 +39,25 @@ func (p *pool) Done() {
 
 func (p *pool) Wait() {
 	p.wg.Wait()
+}
+
+func main() {
+	pool := New(100)
+	now := time.Now()
+	var mutex sync.Mutex
+	println(runtime.NumGoroutine())
+	for i := 0; i < 5000; i++ {
+		pool.Add(1)
+		go func() {
+			defer pool.Done()
+			//time.Sleep(time.Second)
+			mutex.Lock()
+			println("liu", len(pool.queue), runtime.NumGoroutine())
+			mutex.Unlock()
+		}()
+	}
+	pool.Wait()
+	since := time.Since(now)
+	fmt.Println("总共用时：", since)
+	println(runtime.NumGoroutine())
 }
