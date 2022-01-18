@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="goroutine">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="strings操作（正则表达式）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/goroutine/numofgoroutine/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/numofgoroutine/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/排序算法/heapsort/heapsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/排序算法/heapsort/heapsort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/排序算法/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/排序算法/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +68,13 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/go-with-algorithm/go/string">
-    <configuration name="go build github.com/go-with-algorithm/go/goroutine/numofgoroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/go-with-algorithm/algorithm/排序算法">
+    <configuration name="go build github.com/go-with-algorithm/algorithm/排序算法" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/go/goroutine/numofgoroutine/main.go" />
-      <package value="github.com/go-with-algorithm/go/goroutine/numofgoroutine" />
+      <filePath value="$PROJECT_DIR$/algorithm/排序算法/main.go" />
+      <package value="github.com/go-with-algorithm/algorithm/排序算法" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -86,12 +87,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/go-with-algorithm/tools/db/mysql" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build heapsort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/tools/db/mysql/main.go" />
-      <package value="github.com/go-with-algorithm/tools/db/mysql" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/排序算法/heapsort/heapsort.go" />
+      <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -108,25 +109,25 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/goroutine/numofgoroutine/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/排序算法/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/goroutine/numofgoroutine" />
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/db/mysql" />
       <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/string" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/排序算法" />
+      <item itemvalue="Go Build.go build heapsort.go" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/排序算法" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build heapsort.go" />
         <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/string" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/tools/db/mysql" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/go/goroutine/numofgoroutine" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="go语言算法项目初始化" />
     <MESSAGE value="DB连接工具" />
     <MESSAGE value="Go常用标准库" />
     <MESSAGE value="Go语法学习" />
@@ -172,7 +172,8 @@
     <MESSAGE value="leetcode刷题0809-斐波那契数  滚动数组" />
     <MESSAGE value="leetcode刷题0810" />
     <MESSAGE value="goroutine" />
-    <option name="LAST_COMMIT_MESSAGE" value="goroutine" />
+    <MESSAGE value="strings操作（正则表达式）" />
+    <option name="LAST_COMMIT_MESSAGE" value="strings操作（正则表达式）" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

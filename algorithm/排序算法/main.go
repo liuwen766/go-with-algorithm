@@ -12,21 +12,27 @@ import (
 	"github.com/go-with-algorithm/algorithm/排序算法/radixsort"
 	"github.com/go-with-algorithm/algorithm/排序算法/selectsort"
 	"github.com/go-with-algorithm/algorithm/排序算法/shellsort"
+	"time"
 )
 
 var data = []int{8, 3, 6, 9, 11, 2, 7, 23, 65, 13, 9}
 
 func main() {
+
+	now := time.Now()
+	fmt.Println(now)
+
 	//datePrintln("桶排序")
 	//datePrintln("计数排序")
 	//datePrintln("冒泡排序")
 	//datePrintln("快速排序")
 	//datePrintln("选择排序")
-	datePrintln("插入排序")
+	//datePrintln("插入排序")
 	//datePrintln("希尔排序")
 	//datePrintln("合并排序")
 	//datePrintln("基数排序")
-	//datePrintln("堆排序")
+	datePrintln("堆排序")
+	fmt.Println("dataTest测试耗时：", time.Since(now))
 }
 
 func datePrintln(name string) {
