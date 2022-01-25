@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="堆排序">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="动态规划-爬楼梯">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/动态规划/斐波那契/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/斐波那契/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/动态规划/第N个斐波那契数/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/第N个斐波那契数/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/尚硅谷/1.算法引入/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/尚硅谷/1.字符串/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/尚硅谷/2.稀疏数组/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/尚硅谷/2.数组/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/动态规划/凑零钱问题/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/动态规划/凑零钱问题/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,64 +60,46 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\test\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\尚硅谷\五大算法\动态规划" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\动态规划\入门" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\剑指offer\数据结构" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\数组" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\排序和搜索" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\字符串" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build kmp.go">
-    <configuration name="go build Main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (3)">
+    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/字符串/字符是否唯一/main.go" />
+      <package value="github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/删除并获得点数/main.go" />
+      <package value="github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/最长回文子串/Main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/字符串/无重复字符的最长子串/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/go-with-algorithm/algorithm/尚硅谷/8.排序/插入排序" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algorithm/尚硅谷/8.排序/插入排序/Main.go" />
-      <package value="github.com/go-with-algorithm/algorithm/尚硅谷/8.排序/插入排序" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/go-with-algorithm/algorithm/尚硅谷/8.排序/归并排序" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algorithm/尚硅谷/8.排序/归并排序/Main.go" />
-      <package value="github.com/go-with-algorithm/algorithm/尚硅谷/8.排序/归并排序" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/最长回文子串" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/最长回文子串/Main.go" />
-      <package value="github.com/go-with-algorithm/algorithm/leetcode/动态规划/最长回文子串" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/1入门/第N个斐波那契数" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/1入门/第N个斐波那契数/main.go" />
-      <package value="github.com/go-with-algorithm/algorithm/leetcode/动态规划/1入门/第N个斐波那契数" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build kmp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/尚硅谷/1.字符串/KMP算法/kmp.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/删除并获得点数/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -129,26 +108,25 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/尚硅谷/动态规划/背包问题/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/打家劫舍/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/尚硅谷/8.排序/插入排序" />
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/1入门/第N个斐波那契数" />
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/最长回文子串" />
-      <item itemvalue="Go Build.go build Main.go (2)" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" />
+      <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build kmp.go" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" />
+      <item itemvalue="Go Build.go build main.go (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build kmp.go" />
+        <item itemvalue="Go Build.go build main.go (3)" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/最长回文子串" />
-        <item itemvalue="Go Build.go build Main.go (2)" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/1入门/第N个斐波那契数" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" />
       </list>
     </recent_temporary>
   </component>
@@ -169,8 +147,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Go常用标准库" />
-    <MESSAGE value="Go语法学习" />
     <MESSAGE value="go-kafka" />
     <MESSAGE value="goroutione" />
     <MESSAGE value="gopsutil" />
@@ -194,7 +170,9 @@
     <MESSAGE value="goroutine" />
     <MESSAGE value="strings操作（正则表达式）" />
     <MESSAGE value="堆排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="堆排序" />
+    <MESSAGE value="KMP算法" />
+    <MESSAGE value="动态规划-爬楼梯" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划-爬楼梯" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
