@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="动态规划-爬楼梯">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="动态规划-打家劫舍问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/动态规划/凑零钱问题/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/动态规划/凑零钱问题/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +59,29 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\test\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\labuladong\链表\链表的六大解题思路" />
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\labuladong\链表\翻转链表\翻转整个链表" />
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\labuladong\链表\翻转链表" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\尚硅谷\五大算法\动态规划" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\动态规划\入门" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\剑指offer\数据结构" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\数组" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\排序和搜索" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
-    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build github.com/go-with-algorithm/algorithm/labuladong/链表/翻转链表/翻转链表前N个节点" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/字符串/字符是否唯一/main.go" />
-      <package value="github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" />
+      <filePath value="$PROJECT_DIR$/algorithm/labuladong/链表/翻转链表/翻转链表前N个节点/main.go" />
+      <package value="github.com/go-with-algorithm/algorithm/labuladong/链表/翻转链表/翻转链表前N个节点" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/删除并获得点数/main.go" />
-      <package value="github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/labuladong/链表/翻转链表/翻转链表前N个节点/main.go" />
+      <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -90,7 +89,7 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/字符串/无重复字符的最长子串/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/最大子数组和/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -99,7 +98,7 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/删除并获得点数/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/环形子数组的最大和/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -108,25 +107,25 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/打家劫舍/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/labuladong/链表/翻转链表/翻转链表的一部分/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" />
-      <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/labuladong/链表/翻转链表/翻转链表前N个节点" />
+      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" />
+      <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/动态规划/入门/删除并获得点数" />
-        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/leetcode/字符串/字符是否唯一" />
+        <item itemvalue="Go Build.go build main.go (3)" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/labuladong/链表/翻转链表/翻转链表前N个节点" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +146,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="go-kafka" />
     <MESSAGE value="goroutione" />
     <MESSAGE value="gopsutil" />
     <MESSAGE value="gin-请求限流" />
@@ -172,7 +170,8 @@
     <MESSAGE value="堆排序" />
     <MESSAGE value="KMP算法" />
     <MESSAGE value="动态规划-爬楼梯" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划-爬楼梯" />
+    <MESSAGE value="动态规划-打家劫舍问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划-打家劫舍问题" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -194,6 +193,21 @@
           <url>file://$PROJECT_DIR$/algorithm/leetcode/数组/三数之和/main.go</url>
           <line>26</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/跳跃游戏/main.go</url>
+          <line>51</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/翻转链表/翻转链表的一部分/main.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/环形子数组的最大和/main.go</url>
+          <line>65</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
