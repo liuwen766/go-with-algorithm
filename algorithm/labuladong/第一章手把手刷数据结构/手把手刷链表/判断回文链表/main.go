@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/go-with-algorithm/algorithm/common"
 )
 
 /**
@@ -9,7 +10,7 @@ import (
  * @data: 2022.1.25 15:30
  */
 func main() {
-	nodeList := getListNode()
+	nodeList := common.GetListNode()
 	fmt.Println("判断回文链表1", isPalindrome1(nodeList))
 
 	fmt.Println("判断回文链表2", isPalindrome2(nodeList))
@@ -19,8 +20,8 @@ func main() {
  * @desc: TODO 【快慢指针+反转链表】
  * @data: 2022.1.25 16:36
  */
-func isPalindrome2(head *ListNode) bool {
-	var slow, fast *ListNode
+func isPalindrome2(head *common.ListNode) bool {
+	var slow, fast *common.ListNode
 	slow = head
 	fast = head
 	for fast != nil && fast.Next != nil {
@@ -49,7 +50,7 @@ func isPalindrome2(head *ListNode) bool {
  * @desc: 递归实现翻转链表
  * @data: 2022.1.25 17:19
  */
-func reverse(slow *ListNode) *ListNode {
+func reverse(slow *common.ListNode) *common.ListNode {
 	if slow == nil || slow.Next == nil {
 		return slow
 	}
@@ -64,10 +65,10 @@ func reverse(slow *ListNode) *ListNode {
  * @desc: 把原始链表反转存入一条新的链表，然后比较这两条链表是否相同
  * @data: 2022.1.25 16:36
  */
-func isPalindrome1(head *ListNode) bool {
+func isPalindrome1(head *common.ListNode) bool {
 	res1 := printListNode(head)
 	//第一步：把链表反转
-	var pre, cur, next *ListNode
+	var pre, cur, next *common.ListNode
 	pre = nil
 	cur = head
 	next = head
@@ -88,39 +89,11 @@ func isPalindrome1(head *ListNode) bool {
 	return true
 }
 
-func printListNode(list *ListNode) []int {
+func printListNode(list *common.ListNode) []int {
 	res := make([]int, 0)
 	for list != nil {
 		res = append(res, list.Val)
 		list = list.Next
 	}
 	return res
-}
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-func getListNode() *ListNode {
-	val0 := 1
-	val1 := 2
-	val2 := 3
-	val3 := 2
-	val4 := 1
-	head := new(ListNode)
-	node1 := new(ListNode)
-	node2 := new(ListNode)
-	node3 := new(ListNode)
-	node4 := new(ListNode)
-	head.Val = val0
-	node1.Val = val1
-	node2.Val = val2
-	node3.Val = val3
-	node4.Val = val4
-	head.Next = node1
-	node1.Next = node2
-	node2.Next = node3
-	node3.Next = node4
-	return head
 }

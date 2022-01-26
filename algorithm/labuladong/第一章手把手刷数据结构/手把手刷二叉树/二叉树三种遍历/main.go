@@ -1,16 +1,9 @@
 package main
 
-import "fmt"
-
-/**
- * @desc: 二叉树节点定义
- * @data: 2022.1.25 14:08
- */
-type TreeNode struct {
-	val   int
-	left  *TreeNode
-	right *TreeNode
-}
+import (
+	"fmt"
+	"github.com/go-with-algorithm/algorithm/common"
+)
 
 func main() {
 	root := getTree()
@@ -47,27 +40,27 @@ func main() {
 	postOrder(root)
 }
 
-func postOrder(root *TreeNode) {
+func postOrder(root *common.TreeNode) {
 	if root != nil {
-		postOrder(root.left)
-		postOrder(root.right)
-		fmt.Print(root.val)
+		postOrder(root.Left)
+		postOrder(root.Right)
+		fmt.Print(root.Val)
 	}
 }
 
-func inOrder(root *TreeNode) {
+func inOrder(root *common.TreeNode) {
 	if root != nil {
-		inOrder(root.left)
-		fmt.Print(root.val)
-		inOrder(root.right)
+		inOrder(root.Left)
+		fmt.Print(root.Val)
+		inOrder(root.Right)
 	}
 }
 
-func preOrder(root *TreeNode) {
+func preOrder(root *common.TreeNode) {
 	if root != nil {
-		fmt.Print(root.val)
-		preOrder(root.left)
-		preOrder(root.right)
+		fmt.Print(root.Val)
+		preOrder(root.Left)
+		preOrder(root.Right)
 	}
 
 }
@@ -77,30 +70,30 @@ func preOrder(root *TreeNode) {
     2      6
   1   3  5   7
 */
-func getTree() *TreeNode {
-	var root = new(TreeNode)
-	var left1 = new(TreeNode)
-	var right1 = new(TreeNode)
-	var left2 = new(TreeNode)
-	var right2 = new(TreeNode)
-	var left3 = new(TreeNode)
-	var right3 = new(TreeNode)
+func getTree() *common.TreeNode {
+	var root = new(common.TreeNode)
+	var left1 = new(common.TreeNode)
+	var right1 = new(common.TreeNode)
+	var left2 = new(common.TreeNode)
+	var right2 = new(common.TreeNode)
+	var left3 = new(common.TreeNode)
+	var right3 = new(common.TreeNode)
 
-	root.val = 4
-	left1.val = 2
-	right1.val = 6
-	left2.val = 1
-	right2.val = 3
-	left3.val = 5
-	right3.val = 7
+	root.Val = 4
+	left1.Val = 2
+	right1.Val = 6
+	left2.Val = 1
+	right2.Val = 3
+	left3.Val = 5
+	right3.Val = 7
 
-	root.left = left1
-	root.right = right1
+	root.Left = left1
+	root.Right = right1
 
-	left1.left = left2
-	left1.right = right2
+	left1.Left = left2
+	left1.Right = right2
 
-	right1.left = left3
-	right1.right = right3
+	right1.Left = left3
+	right1.Right = right3
 	return root
 }
