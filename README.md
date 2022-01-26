@@ -6,7 +6,7 @@ leetcode官网：https://leetcode-cn.com/
 
 目录结构：
 go-with-algorithm  
-├─algorithm        
+├─algorithm【算法题】       
 ├─go
 ├─goweb
 ├─tools

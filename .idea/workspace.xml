@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="动态规划-打家劫舍问题">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="算法题刷题第1天">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +59,11 @@
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\tools\test\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\labuladong\第一章手把手刷数据结构" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\labuladong\链表\链表的六大解题思路" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\labuladong\链表\翻转链表\翻转整个链表" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\labuladong\链表\翻转链表" />
       <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\尚硅谷\五大算法\动态规划" />
-      <recent name="C:\Users\liuwen766\go\src\github.com\go-with-algorithm\algorithm\leetcode\动态规划\入门" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go (2)">
@@ -146,7 +146,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="goroutione" />
     <MESSAGE value="gopsutil" />
     <MESSAGE value="gin-请求限流" />
     <MESSAGE value="viper" />
@@ -171,7 +170,8 @@
     <MESSAGE value="KMP算法" />
     <MESSAGE value="动态规划-爬楼梯" />
     <MESSAGE value="动态规划-打家劫舍问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划-打家劫舍问题" />
+    <MESSAGE value="算法题刷题第1天" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法题刷题第1天" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
