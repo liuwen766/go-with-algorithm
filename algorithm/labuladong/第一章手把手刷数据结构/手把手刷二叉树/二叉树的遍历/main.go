@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	root := getTree()
+	root := common.GetTree()
 	//-------------------------------递归遍历------------------------------//
 	//前序遍历
 	fmt.Print("前序遍历：")
@@ -37,63 +37,63 @@ func main() {
 	//层序遍历
 	fmt.Println()
 	fmt.Print("层序遍历：")
-	postOrder(root)
+	res := levelOrder(root)
+	fmt.Print(res)
+}
+
+/**
+ * @desc: 队列【FIFO】
+ * @data: 2022.1.27 21:22
+ */
+func levelOrder(root *common.TreeNode) [][]int {
+	res := [][]int{}
+	if root == nil {
+		return res
+	}
+	var queue = []*common.TreeNode{root}
+	var level int
+	for len(queue) > 0 {
+		counter := len(queue)
+		res = append(res, []int{})
+		for 0 < counter {
+			counter--
+			if queue[0].Left != nil {
+				queue = append(queue, queue[0].Left)
+			}
+			if queue[0].Right != nil {
+				queue = append(queue, queue[0].Right)
+			}
+			res[level] = append(res[level], queue[0].Val)
+			queue = queue[1:]
+		}
+		level++
+	}
+	return res
 }
 
 func postOrder(root *common.TreeNode) {
-	if root != nil {
-		postOrder(root.Left)
-		postOrder(root.Right)
-		fmt.Print(root.Val)
+	if root == nil {
+		return
 	}
+	postOrder(root.Left)
+	postOrder(root.Right)
+	fmt.Print(root.Val)
 }
 
 func inOrder(root *common.TreeNode) {
-	if root != nil {
-		inOrder(root.Left)
-		fmt.Print(root.Val)
-		inOrder(root.Right)
+	if root == nil {
+		return
 	}
+	inOrder(root.Left)
+	fmt.Print(root.Val)
+	inOrder(root.Right)
 }
 
 func preOrder(root *common.TreeNode) {
-	if root != nil {
-		fmt.Print(root.Val)
-		preOrder(root.Left)
-		preOrder(root.Right)
+	if root == nil {
+		return
 	}
-
-}
-
-/**中序遍历：1234567
-       4
-    2      6
-  1   3  5   7
-*/
-func getTree() *common.TreeNode {
-	var root = new(common.TreeNode)
-	var left1 = new(common.TreeNode)
-	var right1 = new(common.TreeNode)
-	var left2 = new(common.TreeNode)
-	var right2 = new(common.TreeNode)
-	var left3 = new(common.TreeNode)
-	var right3 = new(common.TreeNode)
-
-	root.Val = 4
-	left1.Val = 2
-	right1.Val = 6
-	left2.Val = 1
-	right2.Val = 3
-	left3.Val = 5
-	right3.Val = 7
-
-	root.Left = left1
-	root.Right = right1
-
-	left1.Left = left2
-	left1.Right = right2
-
-	right1.Left = left3
-	right1.Right = right3
-	return root
+	fmt.Print(root.Val)
+	preOrder(root.Left)
+	preOrder(root.Right)
 }

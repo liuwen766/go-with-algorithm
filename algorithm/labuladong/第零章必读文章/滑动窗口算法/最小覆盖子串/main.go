@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 /**
  * @desc: 给你一个字符串S、一个字符串T,请在字符串S里面找出：包含T所有字母的最小子串。
@@ -28,6 +31,8 @@ func minWindow(s, t string) string {
 	3、当移动 left 缩小窗口，即移出字符时，应该更新哪些数据？
 	4、我们要的结果应该在扩大窗口时还是缩小窗口时进行更新？
 	*/
+	start := 0
+	length := math.MaxInt16
 
-	return ""
+	return s[start : start+length]
 }
