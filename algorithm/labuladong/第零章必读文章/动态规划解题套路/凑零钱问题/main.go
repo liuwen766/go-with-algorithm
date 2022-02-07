@@ -13,7 +13,29 @@ func main() {
 }
 
 func coinChange2(coins []int, amount int) int {
-	return -1
+	dp := make([]int, amount+1)
+	// 数组大小为 amount + 1，初始值也为 amount + 1
+	for i := 0; i < len(dp); i++ {
+		dp[i] = amount + 1
+	}
+	// base case
+	dp[0] = 0
+	// 外层 for 循环遍历所有状态的所有取值
+	for i := 0; i < len(dp); i++ {
+		// 内层 for 循环在求所有选择的最小值
+		for _, coin := range coins {
+			// 子问题无解，跳过
+			if i-coin < 0 {
+				continue
+			}
+			dp[i] = getMin(dp[i], 1+dp[i-coin])
+		}
+	}
+	//初始值没有变化，说明无解
+	if dp[amount] == amount+1 {
+		return -1
+	}
+	return dp[amount]
 }
 
 /**

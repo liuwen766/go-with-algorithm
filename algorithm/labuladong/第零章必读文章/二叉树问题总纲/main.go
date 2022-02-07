@@ -73,7 +73,7 @@ func getMaxDepthWithFun2(root *common.TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	leftMax := getMaxDepthWithFun1(root.Left)
+	leftMax := getMaxDepthWithFun2(root.Left)
 	rightMax := getMaxDepthWithFun2(root.Right)
 	/// 整棵树的最大深度等于左右子树的最大深度取最大值,然后再加上根节点自己
 	maxDepth := getMax(leftMax, rightMax) + 1
@@ -87,9 +87,25 @@ func getMax(a int, b int) int {
 	return b
 }
 
+var ans int
+var depth int
+
 //第一类是遍历一遍二叉树得出答案
 func getMaxDepthWithFun1(root *common.TreeNode) int {
-	return -1
+	traverse(root)
+	return ans
+}
+
+func traverse(root *common.TreeNode) {
+	if root == nil {
+		ans = getMax(ans, depth)
+	}
+	depth++
+	if root != nil {
+		traverse(root.Left)
+		traverse(root.Right)
+	}
+	depth--
 }
 
 var res []int

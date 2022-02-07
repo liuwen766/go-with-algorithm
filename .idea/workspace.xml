@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="算法题刷题第2天">
+    <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="算法题刷题第3天">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/common/GetTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/common/GetTree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树三种遍历/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/common/GetNodeList.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/common/GetNodeList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/二叉树问题总纲/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/二叉树问题总纲/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/动态规划解题套路/凑零钱问题/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/动态规划解题套路/凑零钱问题/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/字符串的排列/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/字符串的排列/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/寻找字母异位词/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/寻找字母异位词/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/最小覆盖子串/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/最小覆盖子串/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/最长无重复子串/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/最长无重复子串/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +75,11 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build github.com/go-with-algorithm/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-with-algorithm" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历/main.go" />
-      <package value="github.com/go-with-algorithm/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/寻找字母异位词/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -97,11 +93,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/最长无重复子串/main.go" />
+      <package value="github.com/go-with-algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树三种遍历/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/最小覆盖子串/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -110,25 +115,25 @@
       <module name="go-with-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/寻找字母异位词/main.go" />
+      <filePath value="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/动态规划解题套路/凑零钱问题/main.go" />
       <package value="github.com/go-with-algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (4)" />
-      <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go (3)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build github.com/go-with-algorithm/algorithm/labuladong/第一章手把手刷数据结构/手把手刷二叉树/二叉树的遍历" />
-        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gin-请求限流" />
     <MESSAGE value="viper" />
     <MESSAGE value="单元测试" />
     <MESSAGE value="闭包" />
@@ -174,7 +178,8 @@
     <MESSAGE value="动态规划-打家劫舍问题" />
     <MESSAGE value="算法题刷题第1天" />
     <MESSAGE value="算法题刷题第2天" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法题刷题第2天" />
+    <MESSAGE value="算法题刷题第3天" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法题刷题第3天" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -206,6 +211,11 @@
           <url>file://$PROJECT_DIR$/algorithm/leetcode/动态规划/入门/环形子数组的最大和/main.go</url>
           <line>65</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/滑动窗口算法/最小覆盖子串/main.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

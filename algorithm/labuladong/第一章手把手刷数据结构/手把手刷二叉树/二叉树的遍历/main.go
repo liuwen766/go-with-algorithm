@@ -45,16 +45,16 @@ func main() {
  * @desc: 队列【FIFO】
  * @data: 2022.1.27 21:22
  */
-func levelOrder(root *common.TreeNode) [][]int {
-	res := [][]int{}
+func levelOrder(root *common.TreeNode) []int {
+	var res []int
 	if root == nil {
 		return res
 	}
 	var queue = []*common.TreeNode{root}
-	var level int
+	//计算层级
+	//var level int
 	for len(queue) > 0 {
 		counter := len(queue)
-		res = append(res, []int{})
 		for 0 < counter {
 			counter--
 			if queue[0].Left != nil {
@@ -63,10 +63,11 @@ func levelOrder(root *common.TreeNode) [][]int {
 			if queue[0].Right != nil {
 				queue = append(queue, queue[0].Right)
 			}
-			res[level] = append(res[level], queue[0].Val)
+			res = append(res, queue[0].Val)
+			//把第一个节点的左右子节点装完后，排除
 			queue = queue[1:]
 		}
-		level++
+		//level++
 	}
 	return res
 }

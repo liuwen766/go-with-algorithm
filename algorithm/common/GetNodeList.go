@@ -2,6 +2,10 @@ package common
 
 import "fmt"
 
+/**
+ * @desc: 获取一个链表：1—>2—>3—>4—>5—>null
+ * @data: 2022.2.7 9:41
+ */
 type ListNode struct {
 	Val  int
 	Next *ListNode

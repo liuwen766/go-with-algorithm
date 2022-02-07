@@ -31,8 +31,49 @@ func minWindow(s, t string) string {
 	3、当移动 left 缩小窗口，即移出字符时，应该更新哪些数据？
 	4、我们要的结果应该在扩大窗口时还是缩小窗口时进行更新？
 	*/
+	need := make(map[uint8]int, 0)
+	window := make(map[uint8]int, 0)
+	for i := range t {
+		need[t[i]]++
+	}
+	left, right := 0, 0
+	// 用于判断窗口是否要收缩
+	valid := 0
+	// 记录最小覆盖子串的起始索引及长度
 	start := 0
 	length := math.MaxInt16
 
+	for right < len(s) {
+		c := s[right]
+		// 右移窗口
+		right++
+		// 进行窗口内数据的一系列更新
+		if need[c] > 0 {
+			window[c]++
+			if window[c] == need[c] {
+				valid++
+			}
+		}
+		// 判断左侧窗口是否要收缩
+		for valid == len(need) {
+			// 在这里更新最小覆盖子串
+			if right-left < length {
+				start = left
+				length = right - left
+			}
+			d := s[left]
+			// 左移窗口
+			left++
+			if need[d] > 0 {
+				if window[d] == need[d] {
+					valid--
+				}
+				window[d]--
+			}
+		}
+	}
+	if length == math.MaxInt16 {
+		return ""
+	}
 	return s[start : start+length]
 }

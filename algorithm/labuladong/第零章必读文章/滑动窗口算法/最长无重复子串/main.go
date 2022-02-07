@@ -12,8 +12,22 @@ func main() {
 }
 
 func lengthOfLongestSubstring(s string) int {
-
 	maxLen := 0
+	window := make(map[uint8]int, 0)
+	left, right := 0, 0
+	for right < len(s) {
+		c := s[right]
+		right++
+		// 进行窗口内数据的一系列更新
+		window[c]++
+		for window[c] > 1 {
+			d := s[left]
+			left++
+			window[d]--
+		}
+		// 在这里更新答案
+		maxLen = getMax(maxLen, right-left)
+	}
 	return maxLen
 }
 
