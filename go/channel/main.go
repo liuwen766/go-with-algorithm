@@ -16,9 +16,9 @@ func goRoutineB(b chan int) {
 func main() {
 
 	for i := 0; i < 10; i++ {
-
+		//源码目录  runtime/chan.go
 		ch := make(chan int, 5)
-		//ch := make(chan int)
+		//ch := make(chan int)  //发送方和接收方要同步就绪，只有在两者都 ready 的情况下，数据才能在两者间传输
 		go goRoutineA(ch)
 		go goRoutineB(ch)
 		ch <- 3
