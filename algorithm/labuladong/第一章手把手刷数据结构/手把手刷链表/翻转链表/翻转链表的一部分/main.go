@@ -17,11 +17,37 @@ func main() {
 }
 
 /**
+ * @desc: 递归解法
+ * @data: 2022/12/11 19:27
+ */
+func reverseBetween(head *common.ListNode, left int, right int) *common.ListNode {
+	if left == 1 {
+		return reverseN(head, right)
+	}
+	// todo
+	head.Next = reverseBetween(head.Next, left-1, right-1)
+	return head
+}
+
+var tmpNode *common.ListNode
+
+func reverseN(head *common.ListNode, n int) *common.ListNode {
+	if n == 1 {
+		tmpNode = head.Next
+		return head
+	}
+	newHead := reverseN(head.Next, n-1)
+	head.Next.Next = head
+	head.Next = tmpNode
+	return newHead
+}
+
+/**
  * @desc: 给你单链表的头指针 head 和两个整数left 和 right ，其中left <= right 。
  * 请你反转从位置 left 到位置 right 的链表节点，返回 反转后的链表 。
  * @data: 2022.1.25 17:30
  */
-func reverseBetween(head *common.ListNode, left int, right int) *common.ListNode {
+func reverseBetween1(head *common.ListNode, left int, right int) *common.ListNode {
 	var pre, cur, nxt, tmp1, tmp2 *common.ListNode
 	//先确定链表的起始点
 	pre = nil

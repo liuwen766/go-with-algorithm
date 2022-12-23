@@ -14,15 +14,25 @@ func main() {
 	reverseHead := reverseList(nodeList)
 	fmt.Println("迭代翻转链表后的头结点：", reverseHead)
 
-	reverseHead1 := reverse(nodeList)
+	reverseHead1 := reverseList1(nodeList)
 	fmt.Println("递归翻转链表后的头结点：", reverseHead1)
 
 	fmt.Print("翻转链表后打印：")
 	common.PrintListNode(reverseHead)
 }
 
-func reverse(list *common.ListNode) *common.ListNode {
-	return nil
+/**
+* @desc: 递归
+* @data: 2022/12/11 18:44
+ */
+func reverseList1(head *common.ListNode) *common.ListNode {
+	if head == nil || head.Next == nil {
+		return head
+	}
+	newHead := reverseList(head.Next)
+	head.Next.Next = head
+	head.Next = nil
+	return newHead
 }
 
 /**

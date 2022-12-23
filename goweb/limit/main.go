@@ -6,6 +6,12 @@ import (
 	"time"
 )
 
+type common struct {
+	a interface{}
+	b string
+	c int
+}
+
 func main() {
 
 	fmt.Println("限流又称为流量控制（流控），通常是指限制到达系统的并发请求数。")
@@ -24,6 +30,14 @@ func main() {
 
 	fmt.Println("令牌桶其实和漏桶的原理类似，令牌桶按固定的速率往桶里放入令牌，并且只要能从桶里取出令牌就能通过，令牌桶支持突发流量的快速处理。")
 	fmt.Println("在gin框架构建的项目中，我们可以将限流组件定义成中间件。如：func RateLimitMiddleware()")
+
+	com := common{}
+	s := fmt.Sprintf("%v", com.a)
+	b := fmt.Sprintf("%v", com.a)
+	if s != "" {
+		fmt.Println(s, b)
+	}
+	fmt.Println(com.a, com.b, com.c)
 
 }
 

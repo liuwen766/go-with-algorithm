@@ -2,9 +2,17 @@ package main
 
 import (
 	"fmt"
+	"runtime"
+	"runtime/debug"
+	"sync"
+	"time"
 )
 
 func main() {
+
+	//demo1()
+
+	demo2()
 
 	ch1 := make(chan int)
 	ch2 := make(chan int)
@@ -66,5 +74,61 @@ func squarer(out chan<- int, in <-chan int) {
 func printer(in <-chan int) {
 	for i := range in {
 		fmt.Println(i)
+	}
+}
+
+// demo1 通道误用导致的bug
+func demo1() {
+	// 禁止GC
+	debug.SetGCPercent(-1)
+	fmt.Println("程序开始前：", runtime.NumGoroutine())
+	defer fmt.Println("程序结束后：", runtime.NumGoroutine())
+
+	wg := sync.WaitGroup{}
+
+	ch := make(chan int, 10)
+	for i := 0; i < 10; i++ {
+		ch <- i
+	}
+	close(ch)
+
+	wg.Add(3)
+	for j := 0; j < 3; j++ {
+		go func() {
+			for {
+				//task := <-ch
+				//// 这里假设对接收的数据执行某些操作
+				//fmt.Println("获取值：", task)
+				task, ok := <-ch
+				if ok {
+					// 这里假设对接收的数据执行某些操作
+					fmt.Println("获取值：", task)
+				}
+			}
+			wg.Done()
+		}()
+	}
+	wg.Wait()
+}
+
+// demo2 通道误用导致的bug
+func demo2() {
+	// 禁止GC
+	debug.SetGCPercent(-1)
+	fmt.Println("程序开始前：", runtime.NumGoroutine())
+	defer fmt.Println("程序结束后：", runtime.NumGoroutine())
+
+	ch := make(chan string)
+	go func() {
+		// 这里假设执行一些耗时的操作
+		time.Sleep(3 * time.Second)
+		ch <- "job result"
+	}()
+
+	select {
+	case result := <-ch:
+		fmt.Println(result)
+	case <-time.After(time.Second): // 较小的超时时间
+		return
 	}
 }

@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"runtime"
+	"runtime/debug"
 	"sync"
 	"time"
 )
@@ -14,6 +15,11 @@ func hello(i int) {
 	fmt.Println("Hello Goroutine!", i)
 }
 func main() {
+
+	// 禁止GC
+	debug.SetGCPercent(-1)
+	fmt.Println("程序开始前：", runtime.NumGoroutine())
+	defer fmt.Println("程序结束后：", runtime.NumGoroutine())
 
 	fmt.Println("Go语言中一次创建十万左右的goroutine也是可以的。")
 
