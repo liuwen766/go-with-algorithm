@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a94fa91-8017-4633-b922-6c7933cfb612" name="Default Changelist" comment="算法题刷题第4天">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/翻转链表/翻转整个链表/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/翻转链表/翻转整个链表/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/翻转链表/翻转链表前N个节点/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/翻转链表/翻转链表前N个节点/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/翻转链表/翻转链表的一部分/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/翻转链表/翻转链表的一部分/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/链表的六大解题思路/链表的六个解题思路" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第一章手把手刷数据结构/手把手刷链表/链表的六大解题思路/双指针技巧秒杀7道链表题" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/二叉树问题总纲/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/labuladong/第零章必读文章/二叉树问题纲领篇/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/Closure/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/Closure/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/goroutine/channel/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/channel/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/goroutine/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/goroutine/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goweb/limit/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/limit/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +233,7 @@
       <workItem from="1671617927167" duration="30000" />
       <workItem from="1671675819928" duration="8737000" />
       <workItem from="1671760477637" duration="30000" />
+      <workItem from="1671777339718" duration="367000" />
     </task>
     <servers />
   </component>
